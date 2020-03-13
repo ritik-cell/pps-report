@@ -1,4 +1,4 @@
-![gne logo](https://raw.githubusercontent.com/ritik-cell/pps-report/master/download.jpg)
+![photo](https://raw.githubusercontent.com/ritik-cell/pps-report/master/download%20(1).jpg)
 
 # Programing For Problem Solving(ESC-105)
 -----
