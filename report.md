@@ -8,7 +8,6 @@ URN: 1905141
 
 Branch: Electrical Engineering (B)
 
-!(https://raw.githubusercontent.com/ritik-cell/pps-report/master/download.jpg)
 
 -------
 Experiment 1``````
