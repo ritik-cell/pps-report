@@ -13,13 +13,13 @@ Branch: Electrical Engineering (B)
 Batch: 2019-2023
 
 -------
-Experiment 1
+Experiment 1:
 
 ```
 #include<stdio.h>
 int main()
 {
-printf(Ritik);
+printf("Ritik");
 return 0;
 }
 ```
