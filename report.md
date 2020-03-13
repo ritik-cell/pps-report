@@ -40,4 +40,26 @@ int  main()
         else
         printf("#\n");
     }
+```
 -------
+Experiment 3: 
+
+```
+#include <stdio.h>
+int main ()
+{
+    printf("########    ########    ####     ####\n");
+    printf("##      ####        #### ###    ###\n");
+    printf("##      ####        ####   ### ###\n");
+    printf("######  ####        ####    ####\n");
+    printf("##      ####        ####   ### ###\n");
+    printf("##      ####        ####  ###   ###\n");
+    printf("##          ########    ####    ####\n");
+    
+    return 0;
+}
+```
+---------
+Experiment 4: Write a code on addition of two numbers
+
+
