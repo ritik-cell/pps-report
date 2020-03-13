@@ -23,3 +23,21 @@ printf("Ritik");
 return 0;
 }
 ```
+-------
+Experiment 2: Write a code to print big C
+
+```
+#include <stdio.h>
+int  main()
+{
+    int i=0;
+    for(i=0;i<9;i++)
+    {
+        if(i==0 || i==8)
+        printf(" ######\n");
+        else if(i==1 || i==7)
+        printf("##    ##\n");
+        else
+        printf("#\n");
+    }
+-------
