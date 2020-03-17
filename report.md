@@ -13,7 +13,7 @@ Branch: Electrical Engineering (B)
 Batch: 2019-2023
 
 -------
-Experiment 1:
+Experiment 1: write a code to print hello world.
 
 ```
 #include<stdio.h>
@@ -24,7 +24,7 @@ return 0;
 }
 ```
 -------
-Experiment 2: Write a code to print big C
+Experiment 2: Write a code to print big C.
 
 ```
 #include <stdio.h>
