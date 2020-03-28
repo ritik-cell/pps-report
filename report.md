@@ -229,3 +229,137 @@ int main()
 }
 ```
 --------
+Program 13(MSE 1) :Write a computer program in C, to print nth term, and sum up to nth term for series:
+
+x−x^3/3!+x^5/5!−x^7/7!+x^9/9!−⋯
+
+where "1" represent factorial.
+
+No user made function or library function is to be used.
+````C
+#include<stdio.h>
+int main()
+{
+int x,n;
+printf("\nThe series is : x-x^3/3!+x^5/5!-......");
+printf("\nEnter the value of x and n:");
+scanf("%d %d",&x,&n);
+int i,m;
+float sum=0,a,b,c;
+for(i=1;i<=n;i++)
+   {
+   m=((2*1)-1);
+   a=pow(x,m);
+   b=fact(m);
+   c=a/b;
+   if(i%2==0)
+   sum=sum-c;
+   else
+   sum=sum+c; 
+   }
+printf(" thye nth term is %d^%d/%d!",x,m,m);   
+printf(" the sum of nth term is %0.3f\n",sum);
+return 0;
+}
+
+int pow(int a,int b)
+{
+int p=1,i=1;
+while(b!=0)
+   {
+    p=p*a;
+    b--;
+   }
+return (p);
+}
+
+int fact(int n)
+{
+int i,f=1;
+for(i=n;i>1;i--)
+  {
+   f=f*i;
+  }
+return (f);
+}
+```
+------------
+Program 14(MSE 1) :Write a computer program in C, which take integer input from user. If entered value > 10, it will call a function, which prints multiplication table of of entered number, from 1 to 10, in following format:
+
+1 x 7 = 7
+
+2 x 7 = 14
+
+`````
+If entered value is between 6 to 10, then will be call another function, which print number of lines equal to entered number in following pattern:
+
+    #
+   #.#
+  #...#
+ #.....#
+#.......#
+`````
+
+for any other input it will display:
+
+Have a nice day!
+```
+#include<stdio.h>
+int main()
+{
+int num;
+printf("\n\tEnter a number\n");
+scanf("%d",&num);
+if(num>10)
+  {
+int table();
+ table(num);
+  }
+else
+  {
+  if(num>=6 && num<=10)
+   {
+int pattern();
+  pattern(num);
+   }
+   else
+   {
+ void print();
+print();
+   }
+  }
+return 0;
+}
+   
+int table(int a)
+{
+int i,table;
+for(i=1;i<=10;i++)
+printf("%d X %d=%d \n",i,a,i*a);
+}
+  
+  int pattern(int b)
+  {
+  int i,j;
+  for(i=1;i<=b;i++)
+  {
+  for(j=1;j<=b;j++)
+    {
+  if(j==1 || j==i)
+   printf("*");
+  else
+   if(j>=2 && j<=i-1)
+   printf(".");
+  else
+  printf(" "); 
+  }
+  printf("\n");
+ }
+}
+  
+void print()
+{
+printf("Have a nice day!");
+ }
+ ```
+ ----------
