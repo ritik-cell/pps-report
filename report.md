@@ -13,7 +13,7 @@ Branch: Electrical Engineering (B)
 Batch: 2019-2023
 
 -------
-Experiment 1: write a code to print hello world.
+Program 1: write a code to print hello world.
 
 ```
 #include<stdio.h>
@@ -24,7 +24,7 @@ return 0;
 }
 ```
 -------
-Experiment 2: Write a code to print big C.
+Program 2: Write a code to print big C.
 
 ```
 #include <stdio.h>
@@ -42,7 +42,7 @@ int  main()
     }
 ```
 -------
-Experiment 3: 
+Program 3: 
 
 ```
 #include <stdio.h>
@@ -60,7 +60,7 @@ int main ()
 }
 ```
 ---------
-Experiment 4: Write a code to execute the addition of two numbers
+Program 4: Write a code to execute the addition of two numbers
 ```
 #include <stdio.h>
 int main()
@@ -143,6 +143,50 @@ int main ()
 }
 ```
 --------------
+Experiment 9: write a code to check Timming.
+```
+#include<stdio.h>
+int main ()
+{
+    float time;
+    scanf("%f"&time);
+    if(time>8.14 || time<8.36)
+    printf("present");
+    else
+    {
+        if(time>=8.36 || time<=8.45)
+        printf("Late");
+        else
+        {
+            if(time>8.45 || time<9.00)
+            printf("Absent");
+            else
+            {
+                if(time==8.00 || time<=8.14)
+                printf("sorry gate closed");
+                else
+                {
+                    if(time>7.00 || time<8.00)
+                    printf("You entered wrong time");
+                    else
+                    {
+                        if(time>=9.00)
+                        printf("sorry gate closed");
+                        else
+                        {
+                            if(time>=1.00 || time<=7.00)
+                            printf("wrong timing");
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+```
+---------
+Experiment 
+   
 
 
 
