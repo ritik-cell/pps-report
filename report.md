@@ -74,7 +74,7 @@ int main()
 }
 ```
 ------------
-Experiment 5: write a code to print smaller number
+Program 5: write a code to print smaller number
 ```
 #include<stdio.h>
 int main()
@@ -91,7 +91,7 @@ int main()
 }
 ```
 --------------
-Experiment 6: write a code to print the character in a reverse way
+Program 6: write a code to print the character in a reverse way
 ```
 #include<stdio.h>
 int main()
@@ -106,7 +106,7 @@ int main()
 }
 ```
 -----------
-Experiment 7: write a code to compute the perimeter and area of a rectangle.
+Program 7: write a code to compute the perimeter and area of a rectangle.
 ```
 #include<stdio.h>
 int main()
@@ -126,7 +126,7 @@ int main()
 }
 ```
 ----------------
-Experiment 8: write a code to execute addition of two numbers if the sum is even. 
+Program 8: write a code to execute addition of two numbers if the sum is even. 
 ```
 #include<stdio.h>
 int main ()
@@ -143,7 +143,7 @@ int main ()
 }
 ```
 --------------
-Experiment 9: write a code to check Timming.
+Program 9: write a code to check Timming.
 ```
 #include<stdio.h>
 int main ()
@@ -185,8 +185,47 @@ int main ()
 }
 ```
 ---------
-Experiment 
-   
-
-
-
+Program 10: write a code to convert temperature from Fahrenheit scale to centigrade.
+```
+#include<stdio.h>
+int main()
+{
+    int f,c;
+    scanf("%d",&f);
+    c=5*(f-32)/9;
+    printf("Fahrenheit scale: %d\n",f);
+    printf("Centigrade scale: %d",c);
+    
+    return 0;
+}
+```
+--------------
+Program 11: Write a code to find the factorial of a number.
+```
+#include<stdio.h>
+int main ()
+{
+    int i,n,f=1;
+    scanf("%d",&n);
+    for(i=1;i<=n;i++)
+    f=f*i;
+    printf("Factorial of %d is %d",n,f);
+    
+    return 0;
+}
+```
+-----------
+Program 12: Write a code to display a sum of series without using predefined function and header file.
+```
+#include<stdio.h>
+int main()
+{
+    int n,i,x;
+    scanf("%d",&n);
+    scanf("%d",&x);
+    for(i=1;i<=n;i++)
+    printf("sum of series :%d^%d",x,n);
+    return 0;
+}
+```
+--------
